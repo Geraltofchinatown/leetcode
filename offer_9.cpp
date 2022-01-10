@@ -18,14 +18,14 @@ public:
 
     int deleteHead() {
         if (sFoward.empty()) return -1;
-        while (sFoward.size()) {
+        while (sFoward.size()) {    //backward里面数据是相反的，栈顶就是头删要删除的数据
             int a = sFoward.top();
             sFoward.pop();
             sBackward.push(a);
         }
-        int queueOut = sBackward.top();
+        int queueOut = sBackward.top(); //删除栈顶数据
         sBackward.pop();
-        while (sBackward.size()) {
+        while (sBackward.size()) {  //反转栈，恢复原状
             int b = sBackward.top();
             sBackward.pop();
             sFoward.push(b);
