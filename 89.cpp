@@ -4,6 +4,12 @@
 
 #include <iostream>
 #include <vector>
+/*
+ *
+ * 格雷码
+ *
+ */
+
 
 using namespace std;
 class Solution {

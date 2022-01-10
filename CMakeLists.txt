@@ -5,3 +5,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 
 add_executable(89 89.cpp)
+add_executable(15 15.cpp)
+add_executable(offer_30 offer_30.cpp)
+add_executable(offer_9 offer_9.cpp)
+add_executable(1920 1920.cpp)
