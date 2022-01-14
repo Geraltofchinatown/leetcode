@@ -64,6 +64,99 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target offer_58
+
+
+#############################################
+# Order-only phony target for offer_58
+
+build cmake_object_order_depends_target_offer_58: phony || CMakeFiles/offer_58.dir
+
+build CMakeFiles/offer_58.dir/offer_58.cpp.o: CXX_COMPILER__offer_58_Debug /Users/pbbbbb/leetcode/offer_58.cpp || cmake_object_order_depends_target_offer_58
+  DEP_FILE = CMakeFiles/offer_58.dir/offer_58.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/offer_58.dir
+  OBJECT_FILE_DIR = CMakeFiles/offer_58.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target offer_58
+
+
+#############################################
+# Link the executable offer_58
+
+build offer_58: CXX_EXECUTABLE_LINKER__offer_58_Debug CMakeFiles/offer_58.dir/offer_58.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/offer_58.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = offer_58
+  TARGET_PDB = offer_58.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target offer_05
+
+
+#############################################
+# Order-only phony target for offer_05
+
+build cmake_object_order_depends_target_offer_05: phony || CMakeFiles/offer_05.dir
+
+build CMakeFiles/offer_05.dir/offer_05.cpp.o: CXX_COMPILER__offer_05_Debug /Users/pbbbbb/leetcode/offer_05.cpp || cmake_object_order_depends_target_offer_05
+  DEP_FILE = CMakeFiles/offer_05.dir/offer_05.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/offer_05.dir
+  OBJECT_FILE_DIR = CMakeFiles/offer_05.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target offer_05
+
+
+#############################################
+# Link the executable offer_05
+
+build offer_05: CXX_EXECUTABLE_LINKER__offer_05_Debug CMakeFiles/offer_05.dir/offer_05.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/offer_05.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = offer_05
+  TARGET_PDB = offer_05.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target offer_24
+
+
+#############################################
+# Order-only phony target for offer_24
+
+build cmake_object_order_depends_target_offer_24: phony || CMakeFiles/offer_24.dir
+
+build CMakeFiles/offer_24.dir/offer_24.cpp.o: CXX_COMPILER__offer_24_Debug /Users/pbbbbb/leetcode/offer_24.cpp || cmake_object_order_depends_target_offer_24
+  DEP_FILE = CMakeFiles/offer_24.dir/offer_24.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/offer_24.dir
+  OBJECT_FILE_DIR = CMakeFiles/offer_24.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target offer_24
+
+
+#############################################
+# Link the executable offer_24
+
+build offer_24: CXX_EXECUTABLE_LINKER__offer_24_Debug CMakeFiles/offer_24.dir/offer_24.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/offer_24.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = offer_24
+  TARGET_PDB = offer_24.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 1920
 
 
@@ -188,6 +281,37 @@ build offer_30: CXX_EXECUTABLE_LINKER__offer_30_Debug CMakeFiles/offer_30.dir/of
   TARGET_PDB = offer_30.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target offer_6
+
+
+#############################################
+# Order-only phony target for offer_6
+
+build cmake_object_order_depends_target_offer_6: phony || CMakeFiles/offer_6.dir
+
+build CMakeFiles/offer_6.dir/offer_6.cpp.o: CXX_COMPILER__offer_6_Debug /Users/pbbbbb/leetcode/offer_6.cpp || cmake_object_order_depends_target_offer_6
+  DEP_FILE = CMakeFiles/offer_6.dir/offer_6.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/offer_6.dir
+  OBJECT_FILE_DIR = CMakeFiles/offer_6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target offer_6
+
+
+#############################################
+# Link the executable offer_6
+
+build offer_6: CXX_EXECUTABLE_LINKER__offer_6_Debug CMakeFiles/offer_6.dir/offer_6.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/offer_6.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = offer_6
+  TARGET_PDB = offer_6.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 15
 
 
@@ -229,7 +353,7 @@ build 15: CXX_EXECUTABLE_LINKER__15_Debug CMakeFiles/15.dir/15.cpp.o
 #############################################
 # Folder: /Users/pbbbbb/leetcode/cmake-build-debug
 
-build all: phony 1920 89 offer_9 offer_30 15
+build all: phony offer_58 offer_05 offer_24 1920 89 offer_9 offer_30 offer_6 15
 
 # =============================================================================
 # Built-in targets
