@@ -188,6 +188,37 @@ build offer_53: CXX_EXECUTABLE_LINKER__offer_53_Debug CMakeFiles/offer_53.dir/of
   TARGET_PDB = offer_53.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 189
+
+
+#############################################
+# Order-only phony target for 189
+
+build cmake_object_order_depends_target_189: phony || CMakeFiles/189.dir
+
+build CMakeFiles/189.dir/189.cpp.o: CXX_COMPILER__189_Debug /Users/pbbbbb/leetcode/189.cpp || cmake_object_order_depends_target_189
+  DEP_FILE = CMakeFiles/189.dir/189.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/189.dir
+  OBJECT_FILE_DIR = CMakeFiles/189.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 189
+
+
+#############################################
+# Link the executable 189
+
+build 189: CXX_EXECUTABLE_LINKER__189_Debug CMakeFiles/189.dir/189.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/189.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 189
+  TARGET_PDB = 189.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target offer_58
 
 
@@ -217,6 +248,37 @@ build offer_58: CXX_EXECUTABLE_LINKER__offer_58_Debug CMakeFiles/offer_58.dir/of
   PRE_LINK = :
   TARGET_FILE = offer_58
   TARGET_PDB = offer_58.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 977
+
+
+#############################################
+# Order-only phony target for 977
+
+build cmake_object_order_depends_target_977: phony || CMakeFiles/977.dir
+
+build CMakeFiles/977.dir/977.cpp.o: CXX_COMPILER__977_Debug /Users/pbbbbb/leetcode/977.cpp || cmake_object_order_depends_target_977
+  DEP_FILE = CMakeFiles/977.dir/977.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/977.dir
+  OBJECT_FILE_DIR = CMakeFiles/977.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 977
+
+
+#############################################
+# Link the executable 977
+
+build 977: CXX_EXECUTABLE_LINKER__977_Debug CMakeFiles/977.dir/977.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/977.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 977
+  TARGET_PDB = 977.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target offer_05
@@ -405,6 +467,37 @@ build 89: CXX_EXECUTABLE_LINKER__89_Debug CMakeFiles/89.dir/89.cpp.o
   TARGET_PDB = 89.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 541
+
+
+#############################################
+# Order-only phony target for 541
+
+build cmake_object_order_depends_target_541: phony || CMakeFiles/541.dir
+
+build CMakeFiles/541.dir/541.cpp.o: CXX_COMPILER__541_Debug /Users/pbbbbb/leetcode/541.cpp || cmake_object_order_depends_target_541
+  DEP_FILE = CMakeFiles/541.dir/541.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/541.dir
+  OBJECT_FILE_DIR = CMakeFiles/541.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 541
+
+
+#############################################
+# Link the executable 541
+
+build 541: CXX_EXECUTABLE_LINKER__541_Debug CMakeFiles/541.dir/541.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/541.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 541
+  TARGET_PDB = 541.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target offer_30
 
 
@@ -477,7 +570,7 @@ build offer_6: CXX_EXECUTABLE_LINKER__offer_6_Debug CMakeFiles/offer_6.dir/offer
 #############################################
 # Folder: /Users/pbbbbb/leetcode/cmake-build-debug
 
-build all: phony 35 278 704 offer_53 offer_58 offer_05 15 offer_9 offer_24 1920 89 offer_30 offer_6
+build all: phony 35 278 704 offer_53 189 offer_58 977 offer_05 15 offer_9 offer_24 1920 89 541 offer_30 offer_6
 
 # =============================================================================
 # Built-in targets
